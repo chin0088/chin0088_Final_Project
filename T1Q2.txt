@@ -1,1 +1,5 @@
+Create an alias to folder "chin0088_Final_Project":
+alias FinalProject='cd ~/Documents/code/chin0088_Final_Project'
+
+Navigate to the folder "chin0088_Final_Project" by using alias:
 FinalProject
