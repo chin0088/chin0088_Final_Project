@@ -1,9 +1,9 @@
 # Lai Nga Ching, Lilian (chin0088)
 
-``
+```
 let bmi = null;
 function calculateBMI(weight, height){
-    bmi = weight / (height * height);
+    bmi = weight / Math.pow(height, 2);
     return bmi;
 }
 
@@ -23,7 +23,7 @@ function interpretBMI(bmi){
 
 console.log(calculateBMI(90, 1.91));
 console.log(interpretBMI(bmi));
-``
+```
 
 ![Topic 3](T3.jpg)
 ![Topic 4](T4.jpg)
